@@ -124,3 +124,5 @@ footer{border-top:3px solid #b4d6c4}
 .hero-logo{display:block;margin:0 auto .8rem}
 .banner .mandala{animation:none;left:50%;top:50%;margin:0;transform:translate(-50%,-50%)}
 .banner .mandala g{transform-origin:200px 200px;animation:spin 140s linear infinite}
+
+.gal{margin:2rem auto;max-width:520px}.gal img{width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(22,74,117,.15)}.gal figcaption{text-align:center;margin-top:.8rem;color:#5d7487}.areas{text-align:center;font-size:.85rem;opacity:.85;margin:1rem 0 .3rem}

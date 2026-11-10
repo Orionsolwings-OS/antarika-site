@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://antarikadhyaan.com/</loc></url>
 <url><loc>https://antarikadhyaan.com/about.html</loc></url>
 <url><loc>https://antarikadhyaan.com/contact.html</loc></url>
-<url><loc>https://antarikadhyaan.com/gallery.html</loc></url>
+<url><loc>https://antarikadhyaan.com/gallery.html</loc><image:image><image:loc>https://antarikadhyaan.com/kuruvapuram-saptadina-antarika-sadhana.jpg</image:loc></image:image></url>
 <url><loc>https://antarikadhyaan.com/initiatives.html</loc></url>
 <url><loc>https://antarikadhyaan.com/parichaya.html</loc></url>
 <url><loc>https://antarikadhyaan.com/wisdom.html</loc></url>
