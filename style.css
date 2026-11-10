@@ -128,3 +128,16 @@ footer{border-top:3px solid #b4d6c4}
 .gal{margin:2rem auto;max-width:520px}.gal img{width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(22,74,117,.15)}.gal figcaption{text-align:center;margin-top:.8rem;color:#5d7487}.areas{text-align:center;font-size:.85rem;opacity:.85;margin:1rem 0 .3rem}
 .gal{width:100%;max-width:320px;margin:2rem auto;padding:0;box-sizing:border-box}.gal a{display:block}.gal img{display:block;width:100%;max-width:100%;height:auto;box-sizing:border-box}
 @media(max-width:480px){.gal{max-width:260px}}
+.lang{display:inline-flex;gap:.25rem;align-items:center;flex-wrap:wrap}
+.lang button{background:transparent;border:1px solid var(--gold);color:var(--gold2);padding:.25rem .65rem;border-radius:999px;font:500 .8rem/1.2 'Inter',system-ui,sans-serif;cursor:pointer;letter-spacing:0;text-transform:none}
+.lang button:hover{background:rgba(74,152,201,.2)}
+.lang button[aria-pressed="true"]{background:var(--gold);color:#fff;border-color:var(--gold)}
+header.site .lang.top{order:0}
+footer .lang.foot{display:flex;justify-content:center;margin:1.5rem auto .5rem;width:100%}
+footer .lang.foot button{color:#b9d3e4}
+footer .lang.foot button[aria-pressed="true"]{color:#fff}
+body:not(.scrolled) header.site .lang button{color:#e3f0f8}
+@media(max-width:900px){header.site .lang.top{order:1;margin-left:auto}header.site .burger{order:2;margin-left:.6rem}header.site nav{order:3}header.site .btn.small{order:4}}
+html[lang="te"] body,html[lang="te"] h1,html[lang="te"] h2,html[lang="te"] h3,html[lang="te"] h4,html[lang="te"] p,html[lang="te"] nav,html[lang="te"] a,html[lang="te"] label,html[lang="te"] .stage,html[lang="te"] li,html[lang="te"] em,html[lang="te"] strong,html[lang="te"] .eyebrow,html[lang="te"] .btn,html[lang="te"] input,html[lang="te"] select,html[lang="te"] button{font-family:'Noto Sans Telugu','Inter',sans-serif;letter-spacing:normal;text-transform:none}
+html[lang="hi"] body,html[lang="hi"] h1,html[lang="hi"] h2,html[lang="hi"] h3,html[lang="hi"] h4,html[lang="hi"] p,html[lang="hi"] nav,html[lang="hi"] a,html[lang="hi"] label,html[lang="hi"] .stage,html[lang="hi"] li,html[lang="hi"] em,html[lang="hi"] strong,html[lang="hi"] .eyebrow,html[lang="hi"] .btn,html[lang="hi"] input,html[lang="hi"] select,html[lang="hi"] button{font-family:'Noto Sans Devanagari','Inter',sans-serif;letter-spacing:normal;text-transform:none}
+html[lang="te"] .lang button,html[lang="hi"] .lang button{font-size:.8rem}
