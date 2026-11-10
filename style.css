@@ -126,3 +126,5 @@ footer{border-top:3px solid #b4d6c4}
 .banner .mandala g{transform-origin:200px 200px;animation:spin 140s linear infinite}
 
 .gal{margin:2rem auto;max-width:520px}.gal img{width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(22,74,117,.15)}.gal figcaption{text-align:center;margin-top:.8rem;color:#5d7487}.areas{text-align:center;font-size:.85rem;opacity:.85;margin:1rem 0 .3rem}
+.gal{width:100%;max-width:320px;margin:2rem auto;padding:0;box-sizing:border-box}.gal a{display:block}.gal img{display:block;width:100%;max-width:100%;height:auto;box-sizing:border-box}
+@media(max-width:480px){.gal{max-width:260px}}
